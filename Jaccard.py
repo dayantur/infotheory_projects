@@ -52,7 +52,7 @@ images=[]
 
 # Loop to generate the binary matrix and plot both real and binary images for each sample
 for sample in all_samples:
-    image_path = "/Users/dayantur/Documents/InformationTheory/" + sample + ".png"
+    image_path = "./" + sample + ".png"
     image = imread(image_path)
     
     #Generate the binary matrix from the image of each sample
